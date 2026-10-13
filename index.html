@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Nihongo Starter</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="app">
+        <aside class="sidebar">
+            <div class="logo">Nihongo Starter</div>
+            <div class="tag">Japanese basics • beginner</div>
+            <nav class="nav">
+                <button class="active" data-page="home">🏠 Home</button><button data-page="hiragana">あ
+                    Hiragana</button><button data-page="katakana">カ Katakana</button><button data-page="words">単語
+                    Vocabulary</button><button data-page="phrases">💬 Phrases</button><button data-page="numbers">🔢
+                    Numbers</button><button data-page="grammar">文法 Grammar</button><button data-page="quiz">✓ Practice
+                    Quiz</button>
+            </nav>
+        </aside>
+        <main class="main">
+            <section id="home" class="page active">
+                <div class="hero">
+                    <div class="eyebrow">Start here</div>
+                    <h1>Japanese, one small step at a time 🇯🇵</h1>
+                    <p>Learn the essentials of Japanese with simple lessons. Start with Hiragana, then move to Katakana,
+                        useful words, everyday phrases, numbers and basic grammar.</p>
+                    <div class="tip"><b>Beginner path:</b> Hiragana → Katakana → Vocabulary → Phrases → Numbers →
+                        Grammar → Quiz</div>
+                </div>
+                <div class="grid">
+                    <div class="card">
+                        <div class="jp">こんにちは</div>
+                        <h3>こんにちは</h3>
+                        <p>Hello / Good afternoon</p>
+                    </div>
+                    <div class="card">
+                        <div class="jp">ありがとう</div>
+                        <h3>ありがとう</h3>
+                        <p>Thank you</p>
+                    </div>
+                    <div class="card">
+                        <div class="jp">はい</div>
+                        <h3>はい</h3>
+                        <p>Yes</p>
+                    </div>
+                </div>
+            </section>
+            <section id="hiragana" class="page">
+                <h1>あ Hiragana</h1>
+                <p>Hiragana is one of the main Japanese writing systems. Learn these basic sounds first.</p>
+                <table class="table">
+                    <tr>
+                        <th>あ</th>
+                        <th>い</th>
+                        <th>う</th>
+                        <th>え</th>
+                        <th>お</th>
+                    </tr>
+                    <tr>
+                        <td>a</td>
+                        <td>i</td>
+                        <td>u</td>
+                        <td>e</td>
+                        <td>o</td>
+                    </tr>
+                    <tr>
+                        <td>か ka</td>
+                        <td>き ki</td>
+                        <td>く ku</td>
+                        <td>け ke</td>
+                        <td>こ ko</td>
+                    </tr>
+                    <tr>
+                        <td>さ sa</td>
+                        <td>し shi</td>
+                        <td>す su</td>
+                        <td>せ se</td>
+                        <td>そ so</td>
+                    </tr>
+                    <tr>
+                        <td>た ta</td>
+                        <td>ち chi</td>
+                        <td>つ tsu</td>
+                        <td>て te</td>
+                        <td>と to</td>
+                    </tr>
+                </table>
+                <div class="tip lesson">Tip: Read the character aloud while writing it. Repetition helps recognition.
+                </div>
+            </section>
+            <section id="katakana" class="page">
+                <h1>カ Katakana</h1>
+                <p>Katakana is commonly used for foreign words, names and borrowed words.</p>
+                <div class="grid">
+                    <div class="card">
+                        <div class="kana">ア</div><b>a</b>
+                        <div class="romaji">アメリカ — Amerika</div>
+                    </div>
+                    <div class="card">
+                        <div class="kana">カ</div><b>ka</b>
+                        <div class="romaji">カメラ — kamera</div>
+                    </div>
+                    <div class="card">
+                        <div class="kana">コ</div><b>ko</b>
+                        <div class="romaji">コーヒー — kōhī</div>
+                    </div>
+                    <div class="card">
+                        <div class="kana">テ</div><b>te</b>
+                        <div class="romaji">テレビ — terebi</div>
+                    </div>
+                </div>
+            </section>
+            <section id="words" class="page">
+                <h1>単語 Vocabulary</h1>
+                <div class="grid">
+                    <div class="card">
+                        <div class="kana">ねこ</div><b>neko</b>
+                        <p>cat 🐱</p>
+                    </div>
+                    <div class="card">
+                        <div class="kana">いぬ</div><b>inu</b>
+                        <p>dog 🐶</p>
+                    </div>
+                    <div class="card">
+                        <div class="kana">みず</div><b>mizu</b>
+                        <p>water 💧</p>
+                    </div>
+                    <div class="card">
+                        <div class="kana">ごはん</div><b>gohan</b>
+                        <p>meal / rice 🍚</p>
+                    </div>
+                    <div class="card">
+                        <div class="kana">ともだち</div><b>tomodachi</b>
+                        <p>friend</p>
+                    </div>
+                    <div class="card">
+                        <div class="kana">せんせい</div><b>sensei</b>
+                        <p>teacher</p>
+                    </div>
+                </div>
+            </section>
+            <section id="phrases" class="page">
+                <h1>💬 Everyday Phrases</h1>
+                <table class="table">
+                    <tr>
+                        <th>Japanese</th>
+                        <th>Romaji</th>
+                        <th>Meaning</th>
+                    </tr>
+                    <tr>
+                        <td>おはようございます</td>
+                        <td>Ohayō gozaimasu</td>
+                        <td>Good morning</td>
+                    </tr>
+                    <tr>
+                        <td>こんにちは</td>
+                        <td>Konnichiwa</td>
+                        <td>Hello</td>
+                    </tr>
+                    <tr>
+                        <td>こんばんは</td>
+                        <td>Konbanwa</td>
+                        <td>Good evening</td>
+                    </tr>
+                    <tr>
+                        <td>ありがとうございます</td>
+                        <td>Arigatō gozaimasu</td>
+                        <td>Thank you</td>
+                    </tr>
+                    <tr>
+                        <td>すみません</td>
+                        <td>Sumimasen</td>
+                        <td>Excuse me / Sorry</td>
+                    </tr>
+                    <tr>
+                        <td>さようなら</td>
+                        <td>Sayōnara</td>
+                        <td>Goodbye</td>
+                    </tr>
+                </table>
+            </section>
+            <section id="numbers" class="page">
+                <h1>🔢 Numbers</h1>
+                <div class="grid">
+                    <div class="card">
+                        <div class="kana">一</div><b>いち — ichi</b>
+                        <p>1</p>
+                    </div>
+                    <div class="card">
+                        <div class="kana">二</div><b>に — ni</b>
+                        <p>2</p>
+                    </div>
+                    <div class="card">
+                        <div class="kana">三</div><b>さん — san</b>
+                        <p>3</p>
+                    </div>
+                    <div class="card">
+                        <div class="kana">四</div><b>よん — yon</b>
+                        <p>4</p>
+                    </div>
+                    <div class="card">
+                        <div class="kana">五</div><b>ご — go</b>
+                        <p>5</p>
+                    </div>
+                    <div class="card">
+                        <div class="kana">十</div><b>じゅう — jū</b>
+                        <p>10</p>
+                    </div>
+                </div>
+            </section>
+            <section id="grammar" class="page">
+                <h1>文法 Basic Grammar</h1>
+                <div class="card">
+                    <h3>1. A は B です</h3>
+                    <p>Use <b>は (wa)</b> to mark the topic and <b>です (desu)</b> for a polite “is/am/are”.</p>
+                    <p class="jp">わたしは がくせいです。</p>
+                    <p><b>Watashi wa gakusei desu.</b> — I am a student.</p>
+                </div>
+                <div class="card lesson">
+                    <h3>2. Simple question</h3>
+                    <p>Add <b>か (ka)</b> at the end.</p>
+                    <p class="jp">がくせいですか。</p>
+                    <p>Are you a student?</p>
+                </div>
+                <div class="card lesson">
+                    <h3>3. Word order</h3>
+                    <p>Japanese commonly follows a Subject → Object → Verb pattern.</p>
+                    <p class="jp">わたしは みずを のみます。</p>
+                    <p>I drink water.</p>
+                </div>
+            </section>
+            <section id="quiz" class="page">
+                <h1>✓ Practice Quiz</h1>
+                <p>Try these beginner questions. No score is saved.</p>
+                <div class="card quiz">
+                    <h3>1. What does ありがとう mean?</h3><button class="choice" data-correct="true">Thank
+                        you</button><button class="choice">Good morning</button><button class="choice">Goodbye</button>
+                    <div class="result" id="r1"></div>
+                </div>
+                <div class="card quiz lesson">
+                    <h3>2. Which is Hiragana?</h3><button class="choice" data-correct="true">あ</button><button
+                        class="choice">ア</button><button class="choice">A</button>
+                    <div class="result" id="r2"></div>
+                </div>
+                <div class="card quiz lesson">
+                    <h3>3. What is 3 in Japanese?</h3><button class="choice">に (ni)</button><button class="choice"
+                        data-correct="true">さん (san)</button><button class="choice">ご (go)</button>
+                    <div class="result" id="r3"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script>
+        // -----------------------------
+        // Navigation buttons
+        // -----------------------------
+
+        const navButtons = document.querySelectorAll('.nav button');
+        const pages = document.querySelectorAll('.page');
+
+        navButtons.forEach(function (button) {
+
+            button.addEventListener('click', function () {
+
+                // Remove "active" from all navigation buttons
+                navButtons.forEach(function (btn) {
+                    btn.classList.remove('active');
+                });
+
+                // Add "active" to the clicked button
+                button.classList.add('active');
+
+
+                // Hide all pages
+                pages.forEach(function (page) {
+                    page.classList.remove('active');
+                });
+
+                // Get the page name from the button
+                const pageName = button.dataset.page;
+
+                // Show the selected page
+                const selectedPage = document.getElementById(pageName);
+                selectedPage.classList.add('active');
+
+                // Scroll to the top of the page
+                window.scrollTo(0, 0);
+            });
+
+        });
+
+
+        // -----------------------------
+        // Quiz
+        // -----------------------------
+
+        const quizzes = document.querySelectorAll('.quiz');
+
+        quizzes.forEach(function (quiz) {
+
+            const choices = quiz.querySelectorAll('.choice');
+            const result = quiz.querySelector('.result');
+
+            choices.forEach(function (choice) {
+
+                choice.addEventListener('click', function () {
+
+                    // Check whether the selected answer is correct
+                    if (choice.dataset.correct) {
+                        result.textContent = '✓ Correct!';
+                        result.style.color = 'green';
+                    }
+                    else {
+                        result.textContent = '✗ Try again.';
+                        result.style.color = 'crimson';
+                    }
+
+                });
+
+            });
+
+        });
+    </script>
+</body>
+
+</html>
